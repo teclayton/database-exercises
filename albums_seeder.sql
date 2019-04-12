@@ -1,4 +1,8 @@
 USE codeup_test_db;
+SELECT 'Truncating' as '';
+
+TRUNCATE albums;
+
 INSERT INTO albums (artist, name, release_year, sales, genre) VALUES ('Michael Jackson', 'Thriller', 1982, 47.3, 'Pop, Rock, R&B'),
  ('Eagles', 'Their Greatest Hits', 1976, 41.2, 'Country, soft rock, folk rock'),
  ('AC/DC', 'Back in Black', 1980, 26.1, 'Hard rock'),

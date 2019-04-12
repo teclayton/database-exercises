@@ -1,7 +1,7 @@
 USE codeup_test_db;
 
 Select 'All albums by Pink Floyd' AS 'Note';
-SELECT * FROM albums WHERE artist = 'Pink Floyd';
+SELECT name FROM albums WHERE artist = 'Pink Floyd';
 
 Select 'Year of release for Sgt. Peppers Lonely Hearts Club Band' AS 'Note';
 SELECT release_year FROM albums WHERE name = 'Sgt. Peppers Lonely Hearts Club Band';
